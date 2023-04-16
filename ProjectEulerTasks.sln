@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEulerTasks", "ProjectEulerTasks\ProjectEulerTasks.csproj", "{D5CC82D1-06FE-4720-88FE-5342C28C0213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task20FactorialDigitSum", "Task20FactorialDigitSum\Task20FactorialDigitSum.csproj", "{AD90F98C-91D3-4B0E-A9FD-18F32F81FF44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5CC82D1-06FE-4720-88FE-5342C28C0213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5CC82D1-06FE-4720-88FE-5342C28C0213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5CC82D1-06FE-4720-88FE-5342C28C0213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5CC82D1-06FE-4720-88FE-5342C28C0213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD90F98C-91D3-4B0E-A9FD-18F32F81FF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD90F98C-91D3-4B0E-A9FD-18F32F81FF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD90F98C-91D3-4B0E-A9FD-18F32F81FF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD90F98C-91D3-4B0E-A9FD-18F32F81FF44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EE834D4-C85A-4E56-84C0-3C23C5EA1E0D}
+	EndGlobalSection
+EndGlobal
