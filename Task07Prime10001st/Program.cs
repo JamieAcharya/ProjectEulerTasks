@@ -20,18 +20,19 @@
                 int position = Convert.ToInt32(Console.ReadLine());
 
                 _ = new PrimePositionCalculator(); //Won't use the assigned variable so can implement discard
-
                 var calculatedPrime = PrimePositionCalculator.CalculatePrimePosition(position);
+
                 Console.WriteLine("The {0} prime is: {1}", position, calculatedPrime);
             }
             else
             {
                 Console.WriteLine("Please enter a number to find if it is a prime and its position: ");
+
                 int position = Convert.ToInt32(Console.ReadLine());
                 
                 _ = new PrimeCalculator();
-                
                 var isPrimeandPosition = PrimeCalculator.CalculatePrime(position);
+
                 Console.WriteLine(isPrimeandPosition);            
             }
         }
