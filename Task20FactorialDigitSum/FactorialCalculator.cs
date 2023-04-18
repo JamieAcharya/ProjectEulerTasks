@@ -20,7 +20,7 @@ namespace Task20FactorialDigitSum
             //Factorial validation to check if numbers are in given range
             if (factorial < 0 || factorial > 100)
             {
-                //Basic logger and validation
+                //Basic logger, validation and exception handling
                 Console.WriteLine("Given number: '{0}' was not between 0 and 100!", factorial);
                 throw new ArgumentOutOfRangeException("Given number must be between 0 and 100!");
             }
