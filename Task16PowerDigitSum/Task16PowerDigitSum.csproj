@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Task20FactorialDigitSum\Task20FactorialDigitSum.csproj" />
+  </ItemGroup>
+
 </Project>

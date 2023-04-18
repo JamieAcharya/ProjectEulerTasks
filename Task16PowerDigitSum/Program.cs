@@ -1,4 +1,6 @@
-﻿namespace Task16PowerDigitSum
+﻿using Task20FactorialDigitSum;
+
+namespace Task16PowerDigitSum
 {
     /// <summary>
     /// Main Entry Point
@@ -17,7 +19,11 @@
 
             int index = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(IndicesCalculator.CalculateIndex(baseNumber, index));
+            Console.WriteLine("Your calculated index is: {0} \n", IndicesCalculator.CalculateIndex(baseNumber, index));
+
+            var sumOfDigits = SumOfDigits.CalculateSumOfDigits(IndicesCalculator.CalculateIndex(baseNumber, index)); //sum the digits of the given factorial 
+
+            Console.WriteLine("The sum of the digits of your calculated index is: {0}. \n", sumOfDigits);
         }
     }
 }
